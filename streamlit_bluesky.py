@@ -27,7 +27,7 @@ from tensorflow.keras.layers import LSTM
 import matplotlib.pyplot as plt 
 from datetime import datetime
 from sklearn.preprocessing import MinMaxScaler
-import base64
+
 
 # BlueSky Above: Pollution estimation using hyper-spectral satellite imagery and maps
 
