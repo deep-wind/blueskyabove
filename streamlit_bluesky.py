@@ -235,6 +235,7 @@ def predict(latitude_input,longitude_input,date):
     ##############################################
     ### Data Collection
     data_frame=pd.read_csv("20days_combined.csv")
+    st.write(data_frame)
     df1=data_frame.reset_index()['NO2']
 
     ### LSTM are sensitive to the scale of the data. so we apply MinMax scaler 
