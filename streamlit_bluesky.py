@@ -8,6 +8,7 @@ Created on Mon Jan 31 19:18:12 2022
 import streamlit as st
 import pandas as pd
 #import harp
+import netCDF4
 from netCDF4 import Dataset
 import os
 from os.path import join
