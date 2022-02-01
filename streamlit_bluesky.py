@@ -294,11 +294,11 @@ def predict(latitude_input,longitude_input,date):
     test_predict=scaler.inverse_transform(test_predict)
     
     ### Calculate RMSE performance metrics
-    
-    math.sqrt(mean_squared_error(y_train,train_predict))
+    print("RMSE")
+    print(math.sqrt(mean_squared_error(y_train,train_predict)))
     
     ### Test Data RMSE
-    math.sqrt(mean_squared_error(ytest,test_predict))
+    print(math.sqrt(mean_squared_error(ytest,test_predict)))
     
     ### Plotting 
     # shift train predictions for plotting
