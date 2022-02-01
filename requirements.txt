@@ -6,3 +6,5 @@ xarray
 keras
 sklearn
 tensorflow
+smopy
+matplotlib
