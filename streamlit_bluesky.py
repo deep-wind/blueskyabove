@@ -234,7 +234,9 @@ def predict(latitude_input,longitude_input,date):
     #            PREDICTION MODULE               #
     ##############################################
     ### Data Collection
+    
     data_frame=pd.read_csv("20days_combined.csv")
+    st.markdown("<h1 style='text-align: left; font-weight:bold;color:black;background-color:white;font-size:11pt;'> Satellite Data </h1>",unsafe_allow_html=True)
     st.write(data_frame)
     df1=data_frame.reset_index()['NO2']
 
